@@ -1,0 +1,30 @@
+{
+  "name": "twitch-phavuer-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.2",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compiler-sfc": "^3.3.4",
+    "eslint": "^8.44.0",
+    "eslint-config-manzdev": "^0.0.2",
+    "gh-pages": "^5.0.0",
+    "stylelint": "^15.10.0",
+    "stylelint-config-manzdev": "^0.0.10",
+    "vite": "^4.3.9"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.60.0",
+    "phavuer": "^0.12.1",
+    "vue": "^3.3.4"
+  }
+}
